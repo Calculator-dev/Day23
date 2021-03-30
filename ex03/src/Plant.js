@@ -9,7 +9,7 @@ class Plant extends Component {
     }
 
     changeType = () => {
-        this.setState({type: "Non flowering plant"});
+        this.setState({ type: "Non flowering plant" });
     }
 
     render() {
