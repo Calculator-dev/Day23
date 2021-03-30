@@ -5,7 +5,7 @@ class Plant extends Component {
         super(props);
         this.state = {
             type: "Flowering plant"
-        }
+        };
     }
 
     changeType = () => {
@@ -18,7 +18,7 @@ class Plant extends Component {
             <h2>Plant type is {this.state.type}</h2>
             <button type="button" onClick={this.changeType}>Change type</button>
             </div>
-        )
+        );
     }
 }
 
