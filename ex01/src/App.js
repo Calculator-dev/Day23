@@ -4,7 +4,7 @@ import Plant from './Plant';
 
 function App() {
   return (
-    <div id="App">
+    <div className="App" id="App">
       <Plant />
     </div>
   );
